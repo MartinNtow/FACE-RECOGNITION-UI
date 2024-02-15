@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    
+}
+body{
+    border: 5px solid black;
+    width: 400px;
+    height: 700px;
+    position: relative;
+    left: 550px;
+    background-color: white;
+   
+}
+.video-container {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+video {
+    width: 350px;
+    height: 800px;
+    position: relative;
+    left: 25px;
+    bottom: 100px;
+    
+    
+}
+.header{
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+button{
+
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: 320px;
+    left: 150px;
+    border-radius: 30px;
+    border-color: black;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    
+    right: 5px;
+}
