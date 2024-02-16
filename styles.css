@@ -13,7 +13,7 @@ body{
    
 }
 .container{
-     background-color: white; 
+    background-color: #364736; 
     width: 400px;
     height: 700px;
     
@@ -63,4 +63,12 @@ img{
     position: relative;
     
     right: 5px;
+}
+a{
+    position: relative;
+    bottom: 250px;
+    left: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: green;
 }

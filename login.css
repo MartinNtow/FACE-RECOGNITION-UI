@@ -1,5 +1,5 @@
 body{
-    border: 0px solid black;
+    /* border: 0px solid black; */
     width: 500px;
     height: 250px;
     position: relative;
@@ -7,10 +7,13 @@ body{
     top: 200px;
     background-color: #e7e2e2;
     box-shadow: 0px 0px 30px white;
+
+    
    
 }
 .container{
     background-color: white;
+    border-radius: 20px;
 }
 h1{
     text-align: center;
@@ -20,12 +23,15 @@ h1{
    
 }
 img{
-    width: 100px;
-    height: 80px;
+    width: 60px;
+    height: 50px;
+    border-radius: 20px;
+    background-size: cover;
+    object-fit: cover;
 }
 h1, img{
     display: inline-block;
-    margin-bottom: -10px;
+    margin-bottom: -13px;
 }
 input{
     position: relative;
@@ -33,10 +39,11 @@ input{
     width: 200px;
     height: 20px;
     padding: 10px;
+    border-radius: 7px;
 }
 input:nth-of-type(3){
     position: relative;
-    left: -20px;
+    left: 90px;
     top: 5px;
 }
 input::placeholder{
@@ -45,14 +52,14 @@ input::placeholder{
 }
 span{
     position: relative;
-    left: -110px;
+    left: -5px;
     bottom: 0px;
 }
 button{
     position: relative;
-    left: 177px;
+    left: 140px;
     bottom: 7px;
-    width: 140px;
+    width: 220px;
     height: 40px;
     background-color: green;
     border-radius: 7px;
