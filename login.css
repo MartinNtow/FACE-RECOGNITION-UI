@@ -1,6 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+;
+
+
 body{
+    font-family: 'Montserrat',sans-serif;
     /* border: 0px solid black; */
-    width: 500px;
+    width: 650px;
     height: 250px;
     position: relative;
     left: 530px;
@@ -13,11 +19,12 @@ body{
 }
 .container{
     background-color: white;
-    border-radius: 20px;
+    height: 300px;
+    /* border-radius: 20px; */
 }
 h1{
     text-align: center;
-    color: green;
+    color: gray;
     position: relative;
     bottom: 20px;
    
@@ -31,7 +38,7 @@ img{
 }
 h1, img{
     display: inline-block;
-    margin-bottom: -13px;
+    margin-bottom: -8px;
 }
 input{
     position: relative;
@@ -70,4 +77,12 @@ a{
     left: 200px;
     text-decoration: none;
     color: blue;
+}
+.container2{
+    position: relative;
+    right: 100px;
+}
+button:nth-of-type(2){
+    position: relative;
+    top: 100px;
 }

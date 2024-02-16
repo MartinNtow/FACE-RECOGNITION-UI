@@ -72,3 +72,7 @@ a{
     text-decoration: none;
     color: green;
 }
+.lecturer_login{
+    position: relative;
+    right: 100px;
+}
