@@ -36,7 +36,8 @@ input{
 }
 input:nth-of-type(3){
     position: relative;
-    left: 90px;
+    left: -20px;
+    top: 5px;
 }
 input::placeholder{
     text-align: center;
@@ -44,8 +45,8 @@ input::placeholder{
 }
 span{
     position: relative;
-    left: 0px;
-    bottom: 5px;
+    left: -110px;
+    bottom: 0px;
 }
 button{
     position: relative;
@@ -55,4 +56,11 @@ button{
     height: 40px;
     background-color: green;
     border-radius: 7px;
+}
+a{
+    position: relative;
+    bottom: 25px;
+    left: 200px;
+    text-decoration: none;
+    color: blue;
 }
