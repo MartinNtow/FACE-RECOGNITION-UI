@@ -1,0 +1,56 @@
+body{
+    width: 600px;
+    height: 600px;
+    border: 0px solid #1717a8;
+    box-shadow: 0px 0px 30px #1717a8;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+
+
+
+.navbar{
+    text-align: center;
+    background-color: aliceblue;
+    
+}
+.navbar a{
+    padding: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+    box-shadow: 0px 0px 5px;
+}
+
+.heading{
+    text-align: center;
+    width: 450px;
+    
+}
+.heading h2, p{
+    position: relative;
+    left: 80px;
+    
+}
+
+.teacher p{
+    position: relative;
+    right: 50px;
+
+}
+.teacher a{
+    padding: 10px;
+    font-size: 20px;
+}
+.attendance a{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.reports a{
+    padding: 10px;
+    font-size: 20px;
+}
