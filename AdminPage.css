@@ -1,12 +1,30 @@
 body{
     width: 600px;
-    height: 600px;
+    height: 610px;
     border: 0px solid #1717a8;
     box-shadow: 0px 0px 30px #1717a8;
     margin: 40px auto;
-    text-align: center;
-}
+    border-radius: 20px;
+   
 
+}
+a{
+    
+    position: relative;
+    top: 10px;
+    color: #1717a8;
+    box-shadow: 5px 5px 5px #1717a8 ;
+    border: 1px solid black;
+}
+a:hover{
+    position: relative;
+    right: 2px;
+}
+.navbar a:nth-of-type(1){
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+}
 
 
 
@@ -21,36 +39,87 @@ body{
     font-size: 22px;
     text-decoration: none;
     position: relative;
-    top: 12px;
+    top: 15px;
     box-shadow: 0px 0px 5px;
 }
 
 .heading{
     text-align: center;
     width: 450px;
+   
+    position: relative;
+    top: 10px;
+   
     
 }
 .heading h2, p{
     position: relative;
     left: 80px;
+    top: 10px;
+    box-shadow: 0px 0px 20px #1717a8;
+    
+    padding: 1px;
     
 }
 
 .teacher p{
     position: relative;
-    right: 50px;
+    margin-left: 120px;
+    background-color: #1717a8;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    
 
 }
-.teacher a{
-    padding: 10px;
+h3{
+    text-align: center;
     font-size: 20px;
+    margin-top: 35px;
+    background-color: #1717a8;
+    width: 500px;
+    margin-left: 50px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+.teacher a{
+    gap: 5px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 100px;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    padding-bottom: 10px;
 }
 .attendance a{
     padding: 10px;
     font-size: 20px;
+    margin-left: 70px;
+}
+.attendance p{
+    position: relative;
+    margin-left: 120px;
+    background-color: #1717a8;;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    color: white;
 }
 
 .reports a{
     padding: 10px;
     font-size: 20px;
+    margin-left: 190px;
 }
+.reports p{
+    position: relative;
+    margin-left: 120px;
+    background-color: #1717a8;;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    color: white;
+}
+
